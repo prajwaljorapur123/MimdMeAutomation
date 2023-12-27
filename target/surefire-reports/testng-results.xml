@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Added employee successfully]]>
+    </line>
+    <line>
+      <![CDATA[employee details....]]>
+    </line>
+    <line>
+      <![CDATA[update employee successfully]]>
+    </line>
+    <line>
+      <![CDATA[delete employee successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-26T10:49:21 IST" name="Suite" finished-at="2023-12-26T10:49:27 IST" duration-ms="6561">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T10:49:21 IST" name="Test" finished-at="2023-12-26T10:49:27 IST" duration-ms="6561">
+      <class name="api.test.LoginTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.LoginTest@6e171cd7]" started-at="2023-12-26T10:49:21 IST" name="setupData" finished-at="2023-12-26T10:49:21 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testLogin(org.testng.ITestContext)[pri:0, instance:api.test.LoginTest@6e171cd7]" started-at="2023-12-26T10:49:21 IST" name="testLogin" finished-at="2023-12-26T10:49:23 IST" duration-ms="2813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1c1bbc4e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- api.test.LoginTest -->
+      <class name="api.test.EmployeeTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.EmployeeTest@441772e]" started-at="2023-12-26T10:49:23 IST" name="setupData" finished-at="2023-12-26T10:49:24 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testAddEmployee()[pri:1, instance:api.test.EmployeeTest@441772e]" started-at="2023-12-26T10:49:24 IST" name="testAddEmployee" finished-at="2023-12-26T10:49:25 IST" duration-ms="1824" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Added employee successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddEmployee -->
+        <test-method signature="testEmployeeDetails()[pri:2, instance:api.test.EmployeeTest@441772e]" started-at="2023-12-26T10:49:25 IST" name="testEmployeeDetails" finished-at="2023-12-26T10:49:26 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[employee details....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEmployeeDetails -->
+        <test-method signature="TestUpdateEmployee()[pri:3, instance:api.test.EmployeeTest@441772e]" started-at="2023-12-26T10:49:26 IST" name="TestUpdateEmployee" finished-at="2023-12-26T10:49:27 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[update employee successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestUpdateEmployee -->
+        <test-method signature="TestDeleteEmployee()[pri:4, instance:api.test.EmployeeTest@441772e]" started-at="2023-12-26T10:49:27 IST" name="TestDeleteEmployee" finished-at="2023-12-26T10:49:27 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[delete employee successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestDeleteEmployee -->
+      </class> <!-- api.test.EmployeeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
